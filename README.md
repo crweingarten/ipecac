@@ -19,3 +19,7 @@ This turns JSON object of information retrieved from the database into the dynam
 **• Line 80:** Sorting mechanism to find artist's albums, related artists' album, then return them in the RELEASES or RELATED sections in reverse chronological order.<br/>
 **• Line 100:** Using DOMPurify to make sure html is secure.<br/>
 **• Line 119:** The artist's name is rendered on top of the picture, letting the text bleed into the left and bottom margins. This design ("fake-mackie" in ipecac.css) was inspired by Mackie Osborne's take on the Ipecac logo, that's appeared on various Melvins releases since 2001. Beyond the .css elements, this sorting mechanism helps determine name size to make it look good for both large band names and small band names. <br/>
+
+# RelatedArtists.jsx
+
+A page from the admin that makes various API calls to add or delete related artists, all while providing visuals on the Virtual DOM that immediately match the changes.
