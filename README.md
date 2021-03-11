@@ -14,8 +14,8 @@ This renders each album sitewide, whether the five on the frontpage or the 100+ 
 
 This turns JSON object of information retrieved from the database into the dynamic artist page
 
-**• Line 25: Sidebar:** This renders the sidebar, alphabetizing the artists (sans "the") and filters them into the NOW or FAMILY sections, based on what the webmaster has dictated by using the admin.
-**• Line 67: Main Image:** After an artist is clicked, the database returns a JSON object with all of the artist's pertinent info. 
-**• Line 80:** Sorting mechanism to find artist's albums, related artists' album, then return them in the RELEASES or RELATED sections in reverse chronological order.
-**• Line 100:** Using DOMPurify to make sure html is secure.
-**• Line 119:** The artist's name is rendered on top of the picture, letting the text bleed into the left and bottom margins. This design ("fake-mackie" in ipecac.css) was inspired by Mackie Osborne's take on the Ipecac logo, that's appeared on various Melvins releases since 2001. Beyond the .css elements, this sorting mechanism helps determine name size to make it look good for both large band names and small band names. 
+**• Line 25: Sidebar:** This renders the sidebar, alphabetizing the artists (sans "the") and filters them into the NOW or FAMILY sections, based on what the webmaster has dictated by using the admin.<br/>
+**• Line 67: Main Image:** After an artist is clicked, the database returns a JSON object with all of the artist's pertinent info.<br/> 
+**• Line 80:** Sorting mechanism to find artist's albums, related artists' album, then return them in the RELEASES or RELATED sections in reverse chronological order.<br/>
+**• Line 100:** Using DOMPurify to make sure html is secure.<br/>
+**• Line 119:** The artist's name is rendered on top of the picture, letting the text bleed into the left and bottom margins. This design ("fake-mackie" in ipecac.css) was inspired by Mackie Osborne's take on the Ipecac logo, that's appeared on various Melvins releases since 2001. Beyond the .css elements, this sorting mechanism helps determine name size to make it look good for both large band names and small band names. <br/>
